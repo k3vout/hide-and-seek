@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Poppins:wght@100&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R7PZMF7XMH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R7PZMF7XMH");
+    </script>
+    <script src="scripts/menu.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="blur">
+      <nav class="navbar">
+        <a href="" class="logo">Kevin Sevinche</a>
+        <button class="mob-menu" id="mob-m">
+          <img
+            class="mob-img-menu"
+            src="https://igorashs.github.io/embedding-images-and-video/images/menu.svg"
+            alt=""
+          />
+        </button>
+        <ul class="desk-nav">
+          <li><a href="#works-a" class="">Portfolio</a></li>
+          <li><a href="#about-a" class="">About</a></li>
+          <li><a href="#contact-a" class="">Contact</a></li>
+          <li>
+            <button class="desk-nav-btn">
+              <img class="desk-img-mail" src="img/mail-icon.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+        <ul class="mob-nav">
+          <li class="close-menu-li">
+            <button class="close-menu">
+              <img class="mob-menu-close" src="img/close-icon.svg" alt="" />
+            </button>
+          </li>
+          <li class="sections-menu-li"><a href="#works-a" class="menu-option">&ensp;Portfolio</a></li>
+          <li class="sections-menu-li"><a href="#about-a" class="menu-option">&ensp;About</a></li>
+          <li class="sections-menu-li"><a href="#contact-a" class="menu-option">&ensp;Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Section -->
+    <main id="main-a" class="blur">
+      <div class="intro">
+        <h1>
+          Hey There. <br />
+          I'm Kevin
+        </h1>
+        <h3>I'am a Software Developer</h3>
+        <p>
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="">
+            <img src="img/github-grey-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/linkedin-grey-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/peace-love-grey-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/twitter-grey-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/m-grey-icon.svg" alt="">
+          </a>
+        </li>
+      </ul>
+    </main>
+    <!-- Works Section -->
+    <section class="works-section" id="works-a">
+      <div class="recent-work blur">
+        <h4>My Recent Works</h4>
+        <hr />
+      </div>
+      <ul class="grid-container">
+        <!-- Projects are displayed here -->
+      </ul>
+    </section>
+    <!-- About Section -->
+    <section class="about blur" id="about-a">
+      <h4>About me</h4>
+      <p>
+        Hello I’m a software developer! I can help you build a product , feature
+        or website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <button class="orng-btn">Get my Resume</button>
+      <hr />
+      <div class="about-tech">
+        <div class="lang-div">
+          <div class="lang">
+            <div class="square-1"></div>
+            <h5>Language</h5>
+          </div>
+          <ul class="language">
+            <li class="names">Javascript</li>
+            <li class="names">Ruby</li>
+            <li class="names">Html</li>
+            <li class="names">Css</li>
+          </ul>
+        </div>
+        <div class="frame-div">
+          <div class="lang">
+            <div class="square-2"></div>
+            <h5>Frameworks</h5>
+          </div>
+          <ul class="frameworks">
+            <li class="names">Bootstrap</li>
+            <li class="names">Ruby on Rails</li>
+            <li class="names">RSPec</li>
+            <li class="names">CapyBara</li>
+            <li class="names">Selenium</li>
+          </ul>
+        </div>
+        <div class="skill-div">
+          <div class="lang">
+            <div class="square-3"></div>
+            <h5>Skills</h5>
+          </div>
+          <ul class="skills">
+            <li class="names">Codekit</li>
+            <li class="names">Github</li>
+            <li class="names">Codepen</li>
+            <li class="names">Gitlab</li>
+            <li class="names">Terminal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact blur" id="contact-a">
+      <p class="contact-p">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </p>
+      <form action="https://formspree.io/f/xwkaogyo" method="post" id="contact-form">
+        <ul class="ul-form">
+          <li>
+            <input
+              class="txt-n"
+              name="name"
+              id="name"
+              type="text"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+          </li>
+          <li>
+            <input
+              class="txt-n"
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Email address"
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              class="txt-a"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Enter text here"
+              maxlength="500"
+              required
+            ></textarea>
+          </li>
+          <li class="btn-msg">
+            <button class="contact-btn orng-btn" type="submit">
+              Get in touch
+            </button>
+            <small class="error-msg">Enter an email in lowercase</small>
+          </li>
+        </ul>
+      </form>
+    </section>
+    <!-- Footer Section -->
+    <footer class="blur">
+      <hr class="contact-hr" />
+      <ul class="social-2">
+        <li>
+          <a href="">
+            <img src="img/github-dark-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/linkedin-dark-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/peace-love-dark-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/twitter-dark-icon.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/m-dark-icon.svg" alt="">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
